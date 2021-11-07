@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Model Website</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css'></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+                <img src="assets\MyPortfolio.jpg" alt="portfolio" href="https://www.linkedin.com/in/samuel-carreres-r%C3%ADos-299656153/">
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/samuel-carreres-r%C3%ADos-299656153/" target="_blank">Social</a></li>
+                <li><a href="https://www.linkedin.com/in/samuel-carreres-r%C3%ADos-299656153/" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+        <div id="aSide">
+            <img src="assets/background.png" alt="">
+            <model-viewer src="assets\komedono.glb" alt="model robot" auto-rotate camera-controls ar ios-src="assets\komedono.glb"></model-viewer>
+        </div>
+        <div id="content">
+            <h2>SEÑOR ARROZ</h2>
+            <p>Un superheroe redondo como el sabor del Arroz 3 Delicias</p>
+            <button><a href="https://www.linkedin.com/in/samuel-carreres-r%C3%ADos-299656153/" target="_blank" class="button">Saber más</a></button>
+        </div>
+        </div>
+        <div id="icons">
+            <div id="iconsLogo">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+             
+            </div>
+        </div>
+    </div>
+</body>
+</html>
